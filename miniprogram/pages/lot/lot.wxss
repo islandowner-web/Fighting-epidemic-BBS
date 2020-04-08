@@ -1,0 +1,46 @@
+.lot-box {
+  height: 300rpx;
+  width: 100%;
+  /* background: greenyellow; */
+  border-bottom: 2rpx solid #ccc;
+}
+
+.itemname {
+  height: 45rpx;
+  width: 220rpx;
+  color: #fff;
+  background: #5cc97f;
+  margin-bottom: 15rpx;
+  line-height: 45rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  font-size: 28rpx;
+}
+
+.lotmainview {
+  display: flex;
+  flex-direction: row;
+  height: 220rpx;
+}
+
+.imgview {
+  /* border:pink solid 1px; */
+  margin-left: 30rpx;
+}
+
+.imgview image {
+  height: 220rpx;
+  width: 220rpx;
+}
+
+.lotchecknums {
+  font-size: 22rpx;
+  color: #666;
+}
+
+.lotbtnview {
+  margin-left: 200rpx;
+  margin-top: 60rpx;
+}

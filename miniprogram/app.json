@@ -1,0 +1,53 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/home/home",
+    "pages/publish/publish",
+    "pages/me/me",
+    "pages/homeDetail/homeDetail",
+    "pages/history/history",
+    "pages/collect/collect",
+    "pages/replay/replay",
+    "pages/lot/lot",
+    "pages/lotres/lotres"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "抗  疫  社  区",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#5cc97f",
+    "backgroungColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "论坛",
+        "iconPath": "images/tab/luntan.png",
+        "selectedIconPath": "images/tab/luntan_select.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "images/tab/publish.png",
+        "selectedIconPath": "images/tab/publish_select.png"
+      },
+      {
+        "pagePath": "pages/lot/lot",
+        "text": "摇号",
+        "iconPath": "images/tab/lot.png",
+        "selectedIconPath": "images/tab/lot_select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/tab/me.png",
+        "selectedIconPath": "images/tab/me_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,77 @@
+/* pages/lotres/lotres.wxss */
+.lotres-box {
+  height: 250rpx;
+  width: 100%;
+  border-bottom: 3rpx solid #ccc;
+}
+
+.titletime{
+  height: 40rpx;
+  width: 330rpx;
+  color: #fff;
+  background: #ddd;
+  margin-bottom: 15rpx;
+  line-height: 40rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-top: 12rpx;
+  margin-left: 30rpx;
+  font-size: 22rpx;
+}
+
+.bottom-box {
+  /* background: pink; */
+  display: flex;
+  flex-direction: row;
+}
+
+
+.imgview {
+  margin-left: 30rpx;
+}
+
+.imgview image {
+  height: 180rpx;
+  width: 180rpx;
+}
+
+.statusview {
+  /* background: #99CCFF; */
+  margin-left: 170rpx;
+  width: 280rpx;
+  height: 100%;
+  margin-top: 30rpx;
+}
+
+.title {
+  font-size: 28rpx;
+  color: #646464;
+}
+
+.finalres {
+  height: 40rpx;
+  width: 120rpx;
+  color: #fff;
+  line-height: 40rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  font-size: 22rpx;
+  margin-top: 10rpx;
+}
+
+.success {
+  background: #5cc97f;
+  border-radius: 10rpx;
+}
+
+.fail {
+  background: red;
+  border-radius: 13rpx;
+}
+
+.finalnum {
+  font-size: 28rpx;
+  color: #808080;
+  margin-top: 10rpx;
+
+}

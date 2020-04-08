@@ -1,0 +1,22 @@
+<!--pages/lotres/lotres.wxml-->
+<block wx:for='{{topics}}' wx:for-index="idx">
+  <view class="lotres-box">
+    <view class="titletime">{{item.date}}</view>
+    <view class="bottom-box">
+      <view class="imgview"><image src="{{item.image}}"></image></view>
+      <view class="statusview">
+        <view class="title">
+          <text decode="true">物品名:&nbsp;&nbsp;{{item.name}}</text>          
+        </view>
+        <view class="finalres">
+          <view wx:if="{{item.finalres}}" class="success">摇号成功</view>
+          <view wx:else class="fail">摇号失败</view>
+        </view>
+        <view class="finalnum">
+          <text decode="true" wx:if="{{item.finalres}}">授权购买码:&nbsp;&nbsp;{{item.rnum}}</text>
+          <text decode="true" wx:else>&nbsp;&nbsp;&nbsp;&nbsp;</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</block>

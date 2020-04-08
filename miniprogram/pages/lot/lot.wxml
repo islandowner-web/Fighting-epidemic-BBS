@@ -1,0 +1,26 @@
+<!--miniprogram/pages/home/home.wxml-->
+<block wx:for='{{topics}}' wx:for-index="idx">
+  <view class="lot-box">
+    <view class="itemname">{{item.name}}</view>
+    <view class="lotmainview">
+      <view class="imgview"><image src="{{item.images}}"></image></view>
+      <view class="lotbtnview">
+        <view wx:if="{{item.checknum > 0}}">
+          <button size="mini" bindtap="onLotBtnClick" data-topicId='{{item._id}}' data-currentimg='{{item.images}}' data-nowchecknum="{{item.checknum}}" data-name="{{item.name}}">
+            点击摇号
+          </button>
+        </view>
+        <view wx:else>
+          <button size="mini" disabled>
+            配额不足
+          </button>
+        </view>
+        <view class="lotchecknums"> 
+          <text wx:if="{{item.checknum > 0}}">剩余摇号配额: {{item.checknum}}</text>
+          <text wx:else>剩余摇号配额: 0</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- <view>------------------------------</view> -->
+</block>

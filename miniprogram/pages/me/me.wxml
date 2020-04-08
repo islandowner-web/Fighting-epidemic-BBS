@@ -1,0 +1,58 @@
+<!--pages/mycenter/mycenter.wxml-->
+<view class='amountBg'>
+  <view class='img'>
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class='account'>
+    <view class='nick-name'>
+      <open-data type="userNickName" lang="zh_CN"></open-data>
+    </view>
+    <view class='address'>
+      <open-data type="userCountry" lang="zh_CN"></open-data>·
+      <open-data type="userProvince" lang="zh_CN"></open-data>·
+      <open-data type="userCity" lang="zh_CN"></open-data>
+    </view>
+  </view>
+</view>
+
+<!-- 底部列表 -->
+<view class='content'>
+  <!-- 收藏列表 -->
+   <view class='line'></view>
+  <view class='item' bindtap='onCollectClick'>
+    <view class='icon'>
+      <image src='../../images/me/mycollect.png' style="width:22px;height:21px;"></image>
+    </view>
+    <view class='itemName'>
+      <view>收藏列表</view>
+    </view>
+    <view class='right'>></view>
+  </view>
+ 
+  <!-- 发布历史 -->
+  <view class='hr'></view>
+  <view class='item' bindtap='onHistoryClick'>
+    <view class='icon'>
+      <image src='../../images/me/myhistory.png' style="width:22px;height:21px;"></image>
+    </view>
+    <view class='itemName'>
+      <view>发布历史</view>
+    </view>
+    <view class='right'>></view>
+  </view>
+
+  <!-- 摇号历史 -->
+  <view class='hr'></view>
+  <view class='item' bindtap='onLotClick'>
+    <view class='icon'>
+      <image src='../../images/me/mylot.png' style="width:22px;height:21px;"></image>
+    </view>
+    <view class='itemName'>
+      <view>摇号历史</view>
+    </view>
+    <view class='right'>></view>
+  </view>
+
+  
+
+</view>
