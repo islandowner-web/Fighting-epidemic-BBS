@@ -45,20 +45,12 @@
 ## 效果展示（模拟器机型选择iPhone xs max）
 
 - 帖子相关（首页，帖子详情，发帖，回帖）  
-![首页](/pic/home.png)
-![帖子详情](/pic/detail.png)
-![发帖](/pic/input.png)
-![回贴](/pic/replay.png)
-- 物资摇号（摇号界面、摇号成功、失败、配额用尽）
-![摇号界面](/pic/lotspage.png)
-![摇号成功](/pic/lotsuccess.png)
-![摇号失败](/pic/lotfail.png)
-![配额用尽](/pic/lotempty.png)
-- 个人中心（收藏列表、发布历史、摇号历史）
-![收藏列表](/pic/collect.png)
-![发布历史](/pic/inputhistory.png)
-![摇号历史](/pic/lothistory.png)
+<img src="/pic/home.png" height='500'> <img src="/pic/detail.png" height='500'>  <img src="/pic/input.png" height='500'>  <img src="/pic/replay.png" height='500'> 
+- 物资摇号（摇号界面、摇号成功、失败、配额用尽）  
+<img src="/pic/lotspage.png" height='500'> <img src="/pic/lotsuccess.png" height='500'>  <img src="/pic/lotfail.png" height='500'>  <img src="/pic/lotempty.png" height='500'> 
+- 个人中心（收藏列表、发布历史、摇号历史） 
+<img src="/pic/collect.png" height='500'> <img src="/pic/inputhistory.png" height='500'>  <img src="/pic/lothistory.png" height='500'> 
 
 ## 更多信息
-- 有问题可扫码加我微信，能帮就帮能答就答
-![wx](/pic/wx.jpeg)
+- 有问题可扫码加我微信，能帮就帮能答就答  
+<img src="/pic/wx.jpeg" height='500'>
