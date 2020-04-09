@@ -49,7 +49,7 @@
 - 物资摇号（摇号界面、摇号成功、失败、配额用尽）  
 <img src="/pic/lotspage.png" height='500'> <img src="/pic/lotsuccess.png" height='500'>  <img src="/pic/lotfail.png" height='500'>  <img src="/pic/lotempty.png" height='500'>  
 - 个人中心（收藏列表、发布历史、摇号历史）  
-<img src="/pic/collect.png" height='500'> <img src="/pic/inputhistory.png" height='500'>  <img src="/pic/lothistory.png" height='500'>   
+<img src="/pic/me.png" height='500'> <img src="/pic/collect.png" height='500'> <img src="/pic/inputhistory.png" height='500'>  <img src="/pic/lothistory.png" height='500'>   
 
 ## 更多信息
 - 有问题可扫码加我微信，能帮就帮能答就答  
