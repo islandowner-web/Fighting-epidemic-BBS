@@ -42,7 +42,7 @@
 附2：云开发环境的获取方法   
 进入云开发控制台，点击“设置”，下方即出现环境名称
 
-## 效果展示（模拟器机型选择iPhone xs max）
+## 效果展示（机型选择iPhone xs max）[图片出不来点这里---码云](https://gitee.com/islandowner_web/Fighting-epidemic-BBS) 
 
 - 帖子相关（首页，帖子详情，发帖，回帖）  
 <img src="/pic/home.png" height='500'> <img src="/pic/detail.png" height='500'>  <img src="/pic/input.png" height='500'>  <img src="/pic/replay.png" height='500'> 
